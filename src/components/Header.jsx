@@ -4,7 +4,7 @@ import { GoBell } from "react-icons/go";
 
 
 const Header = () => (
-  <header className="d-flex justify-content-between align-items-center p-2 my-2 me-2 ms-2 bg-white  rounded-3 "  style={{ width:'1102px'}}>
+  <header className="d-flex justify-content-between align-items-center p-2 my-2 me-2 ms-2 bg-white  rounded-3 "  style={{ width:'1107px'}}>
     <div className="d-flex">
       <div className="d-flex mx-5 ">
         <input
