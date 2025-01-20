@@ -27,7 +27,7 @@ const DeviceManagement = () => {
   
   return (
     <>
-      <div className='p-3  ms-2 mt-2 bg-white rounded-3 d-flex me-' style={{ width: '1170px'}}>
+      <div className='p-3  ms-2 mt-2 bg-white rounded-3 d-flex me-2' style={{ width: '1112px'}}>
         <div className='bg-light rounded-2'>
           <RxDashboard  className='m-2 bg-light rounded-3 fs-4'/>
         </div>
@@ -65,7 +65,7 @@ const DeviceManagement = () => {
           </div>
         </div>
         <div className='container  ms-1'>
-          <div className='row ' style={{ width: '930px'}}>
+          <div className='row me-3' style={{ width: '875px'}}>
             <div className='p-2 mt-2 bg-white rounded-3 d-flex '>
               <div className={`btn btn-xs rounded-4 d-flex pe-2 ${activeDevice === 1 ? 'bg-primary bg-opacity-10 text-primary' : 'bg-white text-black'}`} onClick={()=>handleActiveDevice(1)}>
                 <PiDeviceMobileCameraLight  className='m-1 fs-4'/>
