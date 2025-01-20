@@ -4,7 +4,7 @@ import { GoBell } from "react-icons/go";
 
 
 const Header = () => (
-  <header className="d-flex justify-content-between align-items-center p-2 my-2 me-2 ms-2 bg-white  rounded-3 "  style={{ width:'1109px'}}>
+  <header className="d-flex justify-content-between align-items-center p-2 my-2 me-2 ms-2 bg-white  rounded-3 "  style={{ width:'1168px'}}>
     <div className="d-flex">
       <div className="d-flex mx-5 ">
         <input
@@ -15,7 +15,7 @@ const Header = () => (
         />
         <IoIosSearch className="position-absolute fs-4 my-3 mx-3 " />
       </div>
-      <div className="d-flex" style={{paddingLeft:"122px"}}>
+      <div className="d-flex" style={{paddingLeft:"186px"}}>
         <div className="bg-secondary bg-opacity-10 rounded-4 mx-2 text-center cursor-pointer ">
           <GoBell className="m-3 fs-5 text-center"/>
         </div>
