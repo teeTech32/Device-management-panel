@@ -27,7 +27,7 @@ const DeviceManagement = () => {
   
   return (
     <>
-      <div className='p-3  ms-2 mt-2 bg-white rounded-3 d-flex me-2' style={{ width: '1112px'}}>
+      <div className='p-3  ms-2 mt-2 bg-white rounded-3 d-flex me-2' style={{ width: '1168px'}}>
         <div className='bg-light rounded-2'>
           <RxDashboard  className='m-2 bg-light rounded-3 fs-4'/>
         </div>
